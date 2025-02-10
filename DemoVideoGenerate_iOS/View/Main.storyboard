@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bWc-OH-9yN">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="VCj-Ke-T1H">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="bWc-OH-9yN" customClass="ViewController" customModule="CustomVideoGenerator" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zda-Kh-M1U">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bSk-sz-jvy">
+                                <rect key="frame" x="16" y="774" width="361" height="44"/>
+                                <color key="backgroundColor" systemColor="tintColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="9jd-Tc-9sR"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Pick Multiple Image">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKz-oD-qFl">
+                                <rect key="frame" x="16" y="722" width="361" height="44"/>
+                                <color key="backgroundColor" systemColor="tintColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Hbs-4S-E0R"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Generate Video">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="8"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iId-vd-Uqu">
+                                <rect key="frame" x="0.0" y="304" width="393" height="244"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="EF1-W2-ket">
+                                        <rect key="frame" x="176.66666666666666" y="102" width="40" height="40"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="40" id="WUl-F6-Nol"/>
+                                            <constraint firstAttribute="width" constant="40" id="t28-AM-DCk"/>
+                                        </constraints>
+                                        <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </activityIndicatorView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZqH-ob-xH7">
+                                        <rect key="frame" x="146.66666666666666" y="72" width="100" height="100"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="Dpd-M8-U8m"/>
+                                            <constraint firstAttribute="width" constant="100" id="vWH-8Y-DLN"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="EF1-W2-ket" firstAttribute="centerX" secondItem="iId-vd-Uqu" secondAttribute="centerX" id="9UJ-K0-ClZ"/>
+                                    <constraint firstItem="ZqH-ob-xH7" firstAttribute="centerY" secondItem="iId-vd-Uqu" secondAttribute="centerY" id="LxL-kX-ybc"/>
+                                    <constraint firstItem="EF1-W2-ket" firstAttribute="centerY" secondItem="iId-vd-Uqu" secondAttribute="centerY" id="Th0-Au-eab"/>
+                                    <constraint firstAttribute="height" constant="244" id="W8l-71-TMd"/>
+                                    <constraint firstItem="ZqH-ob-xH7" firstAttribute="centerX" secondItem="iId-vd-Uqu" secondAttribute="centerX" id="icE-nS-HyO"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ef4-Y5-pVk">
+                                <rect key="frame" x="318" y="59" width="75" height="35"/>
+                                <color key="backgroundColor" systemColor="tintColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="35" id="ORf-Bd-Lcl"/>
+                                    <constraint firstAttribute="width" constant="75" id="QVs-VS-aG8"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="All Video">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Jqm-sn-Dgz"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="bSk-sz-jvy" firstAttribute="bottom" secondItem="Jqm-sn-Dgz" secondAttribute="bottom" id="18W-Zj-wrj"/>
+                            <constraint firstItem="iId-vd-Uqu" firstAttribute="centerX" secondItem="zda-Kh-M1U" secondAttribute="centerX" id="1Gi-Ev-Ssd"/>
+                            <constraint firstItem="iId-vd-Uqu" firstAttribute="centerY" secondItem="zda-Kh-M1U" secondAttribute="centerY" id="4cT-WI-7eo"/>
+                            <constraint firstItem="iId-vd-Uqu" firstAttribute="leading" secondItem="Jqm-sn-Dgz" secondAttribute="leading" id="8as-8D-5IL"/>
+                            <constraint firstItem="bSk-sz-jvy" firstAttribute="leading" secondItem="Jqm-sn-Dgz" secondAttribute="leading" constant="16" id="QQm-PN-dTz"/>
+                            <constraint firstItem="Ef4-Y5-pVk" firstAttribute="top" secondItem="Jqm-sn-Dgz" secondAttribute="top" id="TCo-Ig-jle"/>
+                            <constraint firstItem="bSk-sz-jvy" firstAttribute="top" secondItem="xKz-oD-qFl" secondAttribute="bottom" constant="8" symbolic="YES" id="Uqf-LV-wZa"/>
+                            <constraint firstItem="Ef4-Y5-pVk" firstAttribute="trailing" secondItem="Jqm-sn-Dgz" secondAttribute="trailing" id="WQ0-Lp-0lD"/>
+                            <constraint firstItem="Jqm-sn-Dgz" firstAttribute="trailing" secondItem="bSk-sz-jvy" secondAttribute="trailing" constant="16" id="WR3-Id-67h"/>
+                            <constraint firstItem="xKz-oD-qFl" firstAttribute="leading" secondItem="Jqm-sn-Dgz" secondAttribute="leading" constant="16" id="brd-fd-cet"/>
+                            <constraint firstItem="Jqm-sn-Dgz" firstAttribute="trailing" secondItem="xKz-oD-qFl" secondAttribute="trailing" constant="16" id="hub-9b-u6b"/>
+                            <constraint firstItem="iId-vd-Uqu" firstAttribute="trailing" secondItem="Jqm-sn-Dgz" secondAttribute="trailing" id="u1l-K4-FKJ"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="btnPicKImage" destination="bSk-sz-jvy" id="Qa1-Xw-rf5"/>
+                        <outlet property="btnPlayPause" destination="ZqH-ob-xH7" id="atk-I8-Vzg"/>
+                        <outlet property="btnShowInFinder" destination="Ef4-Y5-pVk" id="A3O-7Y-9Iz"/>
+                        <outlet property="btnVideoGenerate" destination="xKz-oD-qFl" id="4Sx-K1-z12"/>
+                        <outlet property="indicator" destination="EF1-W2-ket" id="vnf-tv-rpJ"/>
+                        <outlet property="vwVideoPlayer" destination="iId-vd-Uqu" id="eZM-Xc-ByG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6hm-IW-b43" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-77.099236641221367" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="tintColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

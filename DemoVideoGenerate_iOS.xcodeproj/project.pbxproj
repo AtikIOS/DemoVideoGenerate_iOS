@@ -6,47 +6,72 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BEF7CC4B2D5A796B00F72F69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEF7CC402D5A796B00F72F69 /* Assets.xcassets */; };
+		BEF7CC4D2D5A796B00F72F69 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF7CC442D5A796B00F72F69 /* LaunchScreen.storyboard */; };
+		BEF7CC4F2D5A796B00F72F69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7CC3F2D5A796B00F72F69 /* AppDelegate.swift */; };
+		BEF7CC502D5A796B00F72F69 /* DemoVideoGenerate_iOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BEF7CC412D5A796B00F72F69 /* DemoVideoGenerate_iOS.xcdatamodeld */; };
+		BEF7CC512D5A796B00F72F69 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7CC472D5A796B00F72F69 /* SceneDelegate.swift */; };
+		BEF7CC552D5A79A100F72F69 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEF7CC532D5A79A100F72F69 /* ViewController.swift */; };
+		BEF7CC592D5A79B500F72F69 /* Radhika.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BEF7CC572D5A79B500F72F69 /* Radhika.mp3 */; };
+		BEF7CC5A2D5A79B500F72F69 /* AlAmin.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BEF7CC562D5A79B500F72F69 /* AlAmin.mp4 */; };
+		BEF7CC5C2D5A79D200F72F69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEF7CC5B2D5A79D200F72F69 /* Main.storyboard */; };
+		EBE8060D7775C725A6B84D4E /* Pods_DemoVideoGenerate_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C1D37636103005B473271F5 /* Pods_DemoVideoGenerate_iOS.framework */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		1F8977C9D996C9118E371930 /* Pods-DemoVideoGenerate_iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoVideoGenerate_iOS.debug.xcconfig"; path = "Target Support Files/Pods-DemoVideoGenerate_iOS/Pods-DemoVideoGenerate_iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		273AB66C873DE215B5234267 /* Pods-DemoVideoGenerate_iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoVideoGenerate_iOS.release.xcconfig"; path = "Target Support Files/Pods-DemoVideoGenerate_iOS/Pods-DemoVideoGenerate_iOS.release.xcconfig"; sourceTree = "<group>"; };
+		5C1D37636103005B473271F5 /* Pods_DemoVideoGenerate_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoVideoGenerate_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEF7CC112D5A78A500F72F69 /* DemoVideoGenerate_iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoVideoGenerate_iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF7CC3F2D5A796B00F72F69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BEF7CC402D5A796B00F72F69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BEF7CC422D5A796B00F72F69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BEF7CC432D5A796B00F72F69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BEF7CC472D5A796B00F72F69 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BEF7CC4A2D5A796B00F72F69 /* DemoVideoGenerate_iOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoVideoGenerate_iOS.xcdatamodel; sourceTree = "<group>"; };
+		BEF7CC532D5A79A100F72F69 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BEF7CC562D5A79B500F72F69 /* AlAmin.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = AlAmin.mp4; sourceTree = "<group>"; };
+		BEF7CC572D5A79B500F72F69 /* Radhika.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Radhika.mp3; sourceTree = "<group>"; };
+		BEF7CC5B2D5A79D200F72F69 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BEF7CC262D5A78A700F72F69 /* Exceptions for "DemoVideoGenerate_iOS" folder in "DemoVideoGenerate_iOS" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = BEF7CC102D5A78A500F72F69 /* DemoVideoGenerate_iOS */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BEF7CC132D5A78A500F72F69 /* DemoVideoGenerate_iOS */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				BEF7CC262D5A78A700F72F69 /* Exceptions for "DemoVideoGenerate_iOS" folder in "DemoVideoGenerate_iOS" target */,
-			);
-			path = DemoVideoGenerate_iOS;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BEF7CC0E2D5A78A500F72F69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBE8060D7775C725A6B84D4E /* Pods_DemoVideoGenerate_iOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0903BAF1427F1B58CB589B7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C1D37636103005B473271F5 /* Pods_DemoVideoGenerate_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D1E5447C36718195152AFD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1F8977C9D996C9118E371930 /* Pods-DemoVideoGenerate_iOS.debug.xcconfig */,
+				273AB66C873DE215B5234267 /* Pods-DemoVideoGenerate_iOS.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BEF7CC082D5A78A500F72F69 = {
 			isa = PBXGroup;
 			children = (
-				BEF7CC132D5A78A500F72F69 /* DemoVideoGenerate_iOS */,
+				BEF7CC492D5A796B00F72F69 /* DemoVideoGenerate_iOS */,
 				BEF7CC122D5A78A500F72F69 /* Products */,
+				3D1E5447C36718195152AFD2 /* Pods */,
+				0903BAF1427F1B58CB589B7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +83,55 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		BEF7CC492D5A796B00F72F69 /* DemoVideoGenerate_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7CC5E2D5A7A0000F72F69 /* System */,
+				BEF7CC5D2D5A79EF00F72F69 /* View */,
+				BEF7CC582D5A79B500F72F69 /* Support */,
+				BEF7CC542D5A79A100F72F69 /* Controller */,
+				BEF7CC402D5A796B00F72F69 /* Assets.xcassets */,
+				BEF7CC412D5A796B00F72F69 /* DemoVideoGenerate_iOS.xcdatamodeld */,
+				BEF7CC422D5A796B00F72F69 /* Info.plist */,
+			);
+			path = DemoVideoGenerate_iOS;
+			sourceTree = "<group>";
+		};
+		BEF7CC542D5A79A100F72F69 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7CC532D5A79A100F72F69 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BEF7CC582D5A79B500F72F69 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7CC562D5A79B500F72F69 /* AlAmin.mp4 */,
+				BEF7CC572D5A79B500F72F69 /* Radhika.mp3 */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		BEF7CC5D2D5A79EF00F72F69 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7CC442D5A796B00F72F69 /* LaunchScreen.storyboard */,
+				BEF7CC5B2D5A79D200F72F69 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BEF7CC5E2D5A7A0000F72F69 /* System */ = {
+			isa = PBXGroup;
+			children = (
+				BEF7CC472D5A796B00F72F69 /* SceneDelegate.swift */,
+				BEF7CC3F2D5A796B00F72F69 /* AppDelegate.swift */,
+			);
+			path = System;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,20 +139,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEF7CC272D5A78A700F72F69 /* Build configuration list for PBXNativeTarget "DemoVideoGenerate_iOS" */;
 			buildPhases = (
+				99A54F8C56878C52D6673ADA /* [CP] Check Pods Manifest.lock */,
 				BEF7CC0D2D5A78A500F72F69 /* Sources */,
 				BEF7CC0E2D5A78A500F72F69 /* Frameworks */,
 				BEF7CC0F2D5A78A500F72F69 /* Resources */,
+				39EE5D9CE7DDDC588AB933F4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				BEF7CC132D5A78A500F72F69 /* DemoVideoGenerate_iOS */,
-			);
 			name = DemoVideoGenerate_iOS;
-			packageProductDependencies = (
-			);
 			productName = DemoVideoGenerate_iOS;
 			productReference = BEF7CC112D5A78A500F72F69 /* DemoVideoGenerate_iOS.app */;
 			productType = "com.apple.product-type.application";
@@ -122,29 +193,93 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF7CC4B2D5A796B00F72F69 /* Assets.xcassets in Resources */,
+				BEF7CC5C2D5A79D200F72F69 /* Main.storyboard in Resources */,
+				BEF7CC4D2D5A796B00F72F69 /* LaunchScreen.storyboard in Resources */,
+				BEF7CC592D5A79B500F72F69 /* Radhika.mp3 in Resources */,
+				BEF7CC5A2D5A79B500F72F69 /* AlAmin.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39EE5D9CE7DDDC588AB933F4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoVideoGenerate_iOS/Pods-DemoVideoGenerate_iOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DemoVideoGenerate_iOS/Pods-DemoVideoGenerate_iOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DemoVideoGenerate_iOS/Pods-DemoVideoGenerate_iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99A54F8C56878C52D6673ADA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DemoVideoGenerate_iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BEF7CC0D2D5A78A500F72F69 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEF7CC4F2D5A796B00F72F69 /* AppDelegate.swift in Sources */,
+				BEF7CC502D5A796B00F72F69 /* DemoVideoGenerate_iOS.xcdatamodeld in Sources */,
+				BEF7CC552D5A79A100F72F69 /* ViewController.swift in Sources */,
+				BEF7CC512D5A796B00F72F69 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		BEF7CC442D5A796B00F72F69 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BEF7CC432D5A796B00F72F69 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		BEF7CC282D5A78A700F72F69 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F8977C9D996C9118E371930 /* Pods-DemoVideoGenerate_iOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoVideoGenerate_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -167,11 +302,13 @@
 		};
 		BEF7CC292D5A78A700F72F69 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 273AB66C873DE215B5234267 /* Pods-DemoVideoGenerate_iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DemoVideoGenerate_iOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -333,6 +470,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BEF7CC412D5A796B00F72F69 /* DemoVideoGenerate_iOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BEF7CC4A2D5A796B00F72F69 /* DemoVideoGenerate_iOS.xcdatamodel */,
+			);
+			currentVersion = BEF7CC4A2D5A796B00F72F69 /* DemoVideoGenerate_iOS.xcdatamodel */;
+			path = DemoVideoGenerate_iOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BEF7CC092D5A78A500F72F69 /* Project object */;
 }

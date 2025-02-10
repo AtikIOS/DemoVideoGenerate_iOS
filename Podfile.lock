@@ -1,0 +1,16 @@
+PODS:
+  - SwiftVideoGenerator (1.4.0)
+
+DEPENDENCIES:
+  - SwiftVideoGenerator
+
+SPEC REPOS:
+  trunk:
+    - SwiftVideoGenerator
+
+SPEC CHECKSUMS:
+  SwiftVideoGenerator: 804637c18f68a4f205d806e305ebceb4adcf3d25
+
+PODFILE CHECKSUM: 4e226e593d9684c1a95177cf848cb7019fca3fb3
+
+COCOAPODS: 1.16.2
